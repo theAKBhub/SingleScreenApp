@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Single Screen App</string>
+
+    <!-- Product Names -->
+    <string name="pdt_name_kebab">KEBABS</string>
+    <string name="pdt_name_wrap">WRAPS</string>
+    <string name="pdt_name_burger">BURGERS</string>
+    <string name="pdt_name_pizza">PIZZAS</string>
+
+    <!-- Product Prices -->
+    <string name="pdt_price_kebab">from £5.50</string>
+    <string name="pdt_price_wrap">from £6.00</string>
+    <string name="pdt_price_burger">from £6.50</string>
+    <string name="pdt_price_pizza">from £8.00</string>
+
+    <!-- Business Information -->
+    <string name="msg_business_days">OPEN 7 DAYS</string>
+    <string name="msg_business_hours">3PM - 1:30AM All Days</string>
+    <string name="msg_business_address">
+            12 Birmingham Road, Cowes, B31 7BH\n
+            Phone : 0121 258 2767
+    </string>
+    <string name="msg_delivery">FREE Delivery and a bottle of COKE on orders over £20</string>
+    <string name="action_call">tel:00 44 121 2582767</string>
+    <string name="action_email">enquiries@kebabhouse.co.uk</string>
+    <string name="action_showmenu">Click to see our menu</string>
+
+    <!-- Pop window menu labels -->
+    <string name="pdt_kebab_1">Doner Kebab</string>
+    <string name="pdt_kebab_2">Chicken Kebab</string>
+    <string name="pdt_kebab_3">Shish Kebab</string>
+    <string name="pdt_kebab_4">Shahslik Kebab</string>
+    <string name="price_kebab_1">£5.50</string>
+    <string name="price_kebab_2">£6.50</string>
+    <string name="price_kebab_3">£7.50</string>
+    <string name="price_kebab_4">£8.50</string>
+
+    <string name="pdt_wrap_1">Doner Kebab Wrap</string>
+    <string name="pdt_wrap_2">Chicken Kebab Wrap</string>
+    <string name="pdt_wrap_3">Shish Kebab Wrap</string>
+    <string name="pdt_wrap_4">Shahslik Kebab Wrap</string>
+    <string name="price_wrap_1">£6.00</string>
+    <string name="price_wrap_2">£7.00</string>
+    <string name="price_wrap_3">£8.00</string>
+    <string name="price_wrap_4">£9.00</string>
+
+    <string name="pdt_burger_1">Cheeseburger</string>
+    <string name="pdt_burger_2">Beef Burger</string>
+    <string name="pdt_burger_3">Double Cheeseburger</string>
+    <string name="pdt_burger_4">Chicken Burger</string>
+    <string name="price_burger_1">£6.50</string>
+    <string name="price_burger_2">£7.50</string>
+    <string name="price_burger_3">£7.50</string>
+    <string name="price_burger_4">£6.50</string>
+
+    <string name="pdt_pizza_1">Doner Pizza 12\"</string>
+    <string name="pdt_pizza_2">Spicy Chicken Pizza 12\"</string>
+    <string name="pdt_pizza_3">BBQ Chicken Pizza 12\"</string>
+    <string name="pdt_pizza_4">Meat Feast Pizza 12\"</string>
+    <string name="price_pizza_1">£8.00</string>
+    <string name="price_pizza_2">£8.00</string>
+    <string name="price_pizza_3">£8.50</string>
+    <string name="price_pizza_4">£9.00</string>
+
+    <string name="filler_dots">...............</string>
+</resources>

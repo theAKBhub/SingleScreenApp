@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/popwindow_shadow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dimen_32dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/MenuHeader"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:text="@string/pdt_name_kebab"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/MenuItem"
+                android:text="@string/pdt_kebab_1"/>
+            <TextView
+                style="@style/MenuFiller" />
+            <TextView
+                style="@style/MenuItemPrice"
+                android:text="@string/price_kebab_1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/MenuItem"
+                android:text="@string/pdt_kebab_2"/>
+            <TextView
+                style="@style/MenuFiller" />
+            <TextView
+                style="@style/MenuItemPrice"
+                android:text="@string/price_kebab_2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/MenuItem"
+                android:text="@string/pdt_kebab_3"/>
+            <TextView
+                style="@style/MenuFiller" />
+            <TextView
+                style="@style/MenuItemPrice"
+                android:text="@string/price_kebab_3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/MenuItem"
+                android:text="@string/pdt_kebab_4"/>
+            <TextView
+                style="@style/MenuFiller" />
+            <TextView
+                style="@style/MenuItemPrice"
+                android:text="@string/price_kebab_4"/>
+        </LinearLayout>
+
+        <TextView
+            style="@style/MenuHeader"
+            android:text="@string/pdt_name_wrap"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/MenuItem"
+                android:text="@string/pdt_wrap_1"/>
+            <TextView
+                style="@style/MenuFiller" />
+            <TextView
+                style="@style/MenuItemPrice"
+                android:text="@string/price_wrap_1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/MenuItem"
+                android:text="@string/pdt_wrap_2"/>
+            <TextView
+                style="@style/MenuFiller" />
+            <TextView
+                style="@style/MenuItemPrice"
+                android:text="@string/price_wrap_2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/MenuItem"
+                android:text="@string/pdt_wrap_3"/>
+            <TextView
+                style="@style/MenuFiller" />
+            <TextView
+                style="@style/MenuItemPrice"
+                android:text="@string/price_wrap_3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/MenuItem"
+                android:text="@string/pdt_wrap_4"/>
+            <TextView
+                style="@style/MenuFiller" />
+            <TextView
+                style="@style/MenuItemPrice"
+                android:text="@string/price_wrap_4"/>
+        </LinearLayout>
+
+        <TextView
+            style="@style/MenuHeader"
+            android:text="@string/pdt_name_burger"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/MenuItem"
+                android:text="@string/pdt_burger_1"/>
+            <TextView
+                style="@style/MenuFiller" />
+            <TextView
+                style="@style/MenuItemPrice"
+                android:text="@string/price_burger_1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/MenuItem"
+                android:text="@string/pdt_burger_2"/>
+            <TextView
+                style="@style/MenuFiller" />
+            <TextView
+                style="@style/MenuItemPrice"
+                android:text="@string/price_burger_2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/MenuItem"
+                android:text="@string/pdt_burger_3"/>
+            <TextView
+                style="@style/MenuFiller" />
+            <TextView
+                style="@style/MenuItemPrice"
+                android:text="@string/price_burger_3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/MenuItem"
+                android:text="@string/pdt_burger_4"/>
+            <TextView
+                style="@style/MenuFiller" />
+            <TextView
+                style="@style/MenuItemPrice"
+                android:text="@string/price_burger_4"/>
+        </LinearLayout>
+
+        <TextView
+            style="@style/MenuHeader"
+            android:text="@string/pdt_name_pizza"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/MenuItem"
+                android:text="@string/pdt_pizza_1"/>
+            <TextView
+                style="@style/MenuFiller" />
+            <TextView
+                style="@style/MenuItemPrice"
+                android:text="@string/price_pizza_1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/MenuItem"
+                android:text="@string/pdt_pizza_2"/>
+            <TextView
+                style="@style/MenuFiller" />
+            <TextView
+                style="@style/MenuItemPrice"
+                android:text="@string/price_pizza_2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/MenuItem"
+                android:text="@string/pdt_pizza_3"/>
+            <TextView
+                style="@style/MenuFiller" />
+            <TextView
+                style="@style/MenuItemPrice"
+                android:text="@string/price_pizza_3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/MenuItem"
+                android:text="@string/pdt_pizza_4"/>
+            <TextView
+                style="@style/MenuFiller" />
+            <TextView
+                style="@style/MenuItemPrice"
+                android:text="@string/price_pizza_4"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

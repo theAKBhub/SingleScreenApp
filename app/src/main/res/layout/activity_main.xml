@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:background="@color/colorLightBrown"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.acubed.android.singlescreenapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <ImageView
+            style="@style/LogoImage"
+            android:contentDescription="Logo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_logo" />
+
+        <ImageView
+            style="@style/BannerImage"
+            android:contentDescription="Banner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_banner" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/iconkebab"
+                    style="@style/ItemIcon"
+                    android:background="@color/colorLightBrown" />
+                <ImageView
+                    android:src="@drawable/iconwrap"
+                    style="@style/ItemIcon"
+                    android:background="@color/colorPrimaryDark" />
+                <ImageView
+                    android:src="@drawable/iconburger"
+                    style="@style/ItemIcon"
+                    android:background="@color/colorLightBrown" />
+                <ImageView
+                    android:src="@drawable/iconpizza"
+                    style="@style/ItemIcon"
+                    android:background="@color/colorPrimaryDark" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    style="@style/ItemBoxOdd"
+                    android:text="@string/pdt_name_kebab"/>
+                <TextView
+                    style="@style/ItemBoxEven"
+                    android:text="@string/pdt_name_wrap"/>
+                <TextView
+                    style="@style/ItemBoxOdd"
+                    android:text="@string/pdt_name_burger"/>
+                <TextView
+                    style="@style/ItemBoxEven"
+                    android:text="@string/pdt_name_pizza"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    style="@style/ItemBoxOddPrice"
+                    android:text="@string/pdt_price_kebab"/>
+                <TextView
+                    style="@style/ItemBoxEvenPrice"
+                    android:text="@string/pdt_price_wrap"/>
+                <TextView
+                    style="@style/ItemBoxOddPrice"
+                    android:text="@string/pdt_price_burger"/>
+                <TextView
+                    style="@style/ItemBoxEvenPrice"
+                    android:text="@string/pdt_price_pizza"/>
+            </TableRow>
+        </TableLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorLatte">
+            <Button
+                android:id="@+id/button_menu"
+                style="@style/ButtonMenu"
+                android:text="@string/action_showmenu" />
+            <TextView
+                android:id="@+id/text_contact_first"
+                style="@style/RowContactFirst"
+                android:text="@string/msg_business_days" />
+            <TextView
+                android:id="@+id/text_contact_second"
+                style="@style/RowContactSecond"
+                android:layout_below="@id/text_contact_first"
+                android:text="@string/msg_business_hours" />
+            <TextView
+                android:id="@+id/text_contact_third"
+                style="@style/RowContactThird"
+                android:text="@string/msg_business_address" />
+            <TextView
+                style="@style/RowContactFourth"
+                android:layout_below="@id/text_contact_third"
+                android:text="@string/msg_delivery" />
+        </RelativeLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/dimen_10dp"
+            android:paddingBottom="@dimen/dimen_10dp"
+            android:background="@color/colorPrimaryDark">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/button_facebook"
+                    android:src="@drawable/iconfacebook"
+                    style="@style/IconSocialMedia" />
+                <ImageButton
+                    android:id="@+id/button_twitter"
+                    android:src="@drawable/icontwitter"
+                    style="@style/IconSocialMedia" />
+                <ImageButton
+                    android:id="@+id/button_email"
+                    android:src="@drawable/iconemail"
+                    style="@style/IconSocialMedia" />
+                <ImageButton
+                    android:id="@+id/button_phone"
+                    android:src="@drawable/iconphone"
+                    style="@style/IconSocialMedia" />
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>

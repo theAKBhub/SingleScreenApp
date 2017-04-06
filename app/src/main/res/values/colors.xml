@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#795548</color>
+    <color name="colorPrimaryDark">#3E2723</color>
+    <color name="colorAccent">#BD291A</color>
+    <color name="colorLightBrown">#A87039</color>
+    <color name="colorLatte">#FFD2A2</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorPopWindow">#803E2723</color>
+</resources>

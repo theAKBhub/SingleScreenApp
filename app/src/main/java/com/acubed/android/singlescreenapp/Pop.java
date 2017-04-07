@@ -10,16 +10,35 @@ import android.util.DisplayMetrics;
  * closed by clicking anywhere outside the window
  */
 public class Pop extends AppCompatActivity {
+    private static final int SCREEN_WIDTH_PIXELS = 1080;
+    private static final double SIZE_PERCENTAGE = 0.8;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.popup_menu);
 
+        setPopWindowSize();
+    }
+
+    /**
+     * This method sets width and height of pop-up window that opens
+     * If screen width (px) is more than 1080 then calculate menu width based on 1080
+     * Else get screen width and calculate menu width
+     */
+    public void setPopWindowSize() {
+        int width = 0;
+        int height = 0;
+
         DisplayMetrics displayMetrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
-        int width = (int)(displayMetrics.widthPixels * .8); // sets width to 80% of window width
-        int height = (int)(displayMetrics.heightPixels * .8); // sets height to 80% of window height
 
+        if (displayMetrics.widthPixels > SCREEN_WIDTH_PIXELS) {
+            width = (int)(SCREEN_WIDTH_PIXELS * SIZE_PERCENTAGE);
+        } else {
+            width = (int) (displayMetrics.widthPixels * SIZE_PERCENTAGE); // sets width to 80% of window width
+        }
+        height = (int)(displayMetrics.heightPixels * SIZE_PERCENTAGE); // sets height to 80% of window height
         getWindow().setLayout(width, height);
     }
 }

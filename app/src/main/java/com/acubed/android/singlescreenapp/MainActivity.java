@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(mIntent);
                 break;
             case R.id.button_menu:
-                startActivity(new Intent(MainActivity.this, Pop.class));
+                startActivity(new Intent(MainActivity.this, PopWindow.class));
                 break;
         }
     }

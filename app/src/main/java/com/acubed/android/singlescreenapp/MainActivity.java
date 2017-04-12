@@ -98,7 +98,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * @param context
      * @return Intent
      */
-
     public static Intent openTwitter(Context context) {
         Intent intent;
         try {

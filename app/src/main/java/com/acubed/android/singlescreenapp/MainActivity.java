@@ -49,17 +49,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         switch (view.getId()) {
             case R.id.button_phone:
-                mIntent = new Intent(Intent.ACTION_DIAL);
-                mIntent.setData(Uri.parse(getString(R.string.action_call)));
-                startActivity(mIntent);
+                openPhone();
                 break;
             case R.id.button_email:
-                mIntent = new Intent(Intent.ACTION_SENDTO);
-                mIntent.setData(Uri.parse("mailto:")); // only email apps should handle this
-                mIntent.putExtra(Intent.EXTRA_EMAIL, new String[] {getString(R.string.action_email)});
-                if (mIntent.resolveActivity(getPackageManager()) != null) {
-                    startActivity(mIntent);
-                }
+                openEmail();
                 break;
             case R.id.button_facebook:
                 mIntent = openFacebook(MainActivity.this);
@@ -72,6 +65,27 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.button_menu:
                 startActivity(new Intent(MainActivity.this, PopWindow.class));
                 break;
+        }
+    }
+
+    /**
+     * This method opens up phone app
+     */
+    public void openPhone() {
+        mIntent = new Intent(Intent.ACTION_DIAL);
+        mIntent.setData(Uri.parse(getString(R.string.action_call)));
+        startActivity(mIntent);
+    }
+
+    /**
+     * This method opens up email client
+     */
+    public void openEmail() {
+        mIntent = new Intent(Intent.ACTION_SENDTO);
+        mIntent.setData(Uri.parse("mailto:")); // only email apps should handle this
+        mIntent.putExtra(Intent.EXTRA_EMAIL, new String[] {getString(R.string.action_email)});
+        if (mIntent.resolveActivity(getPackageManager()) != null) {
+            startActivity(mIntent);
         }
     }
 

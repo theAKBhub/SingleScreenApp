@@ -6,4 +6,4 @@ ____________
 
 The project requirement was to design and implement a single screen app that displays information about a fictional small business.
 
-![singlescreenapp-1](https://user-images.githubusercontent.com/22053146/29121964-9ec81e98-7d08-11e7-93f1-f064468f66de.png)
+![singlescreenapp-1](https://user-images.githubusercontent.com/22053146/29125613-28afe004-7d14-11e7-8dfe-48d68aab3886.png)
